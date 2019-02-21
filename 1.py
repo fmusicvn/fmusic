@@ -42,7 +42,7 @@ def useragent_list():
 def referer_list():
 	global headers_referers
 	headers_referers = []
-	headers_referers.append('http://engadget.search.aol.com/search?q=')
+	headers_referers.append('http://m.facebook.com/l.php?u=')
 	headers_referers.append('http://www.facebook.com/l.php?u=')
 	headers_referers.append('http://' + host + '/')
 	return(headers_referers)
