@@ -112,7 +112,7 @@ def keyword_list():
  return(keyword_top)
 def buildblock(size):
  out_str = ''
- for i in range(, size):
+ for i in range(0, size):
   a = random.randint(65, 90)
   out_str += chr(a)
  return(out_str)
