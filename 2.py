@@ -19,9 +19,9 @@ host=''
 headers_useragents=[]
 headers_referers=[]
 keyword_top=[]
-request_counter=1000
-flag=1
-safe=1
+request_counter=0
+flag=0
+safe=0
 def inc_counter():
  global request_counter
  request_counter+=1
