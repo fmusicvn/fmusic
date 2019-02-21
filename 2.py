@@ -43,7 +43,7 @@ def getUserAgent():
     browser = random.choice(['chrome', 'firefox', 'ie'])
     if browser == 'chrome':
         webkit = str(random.randint(500, 599))
-        version = str(random.randint(, 28)) + '.0' + str(random.randint(, 1500)) + '.' + str(random.randint(, 999))
+        version = str(random.randint(0, 28)) + '.0' + str(random.randint(0, 1500)) + '.' + str(random.randint(0, 999))
         return 'Mozilla/5.0 (' + os + ') AppleWebKit/' + webkit + '.0 (KHTML, like Gecko) Chrome/' + version + ' Safari/' + webkit
     elif browser == 'firefox':
         currentYear = datetime.date.today().year
