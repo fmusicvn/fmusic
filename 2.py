@@ -19,7 +19,7 @@ host=''
 headers_useragents=[]
 headers_referers=[]
 keyword_top=[]
-request_counter=
+request_counter=1000
 flag=
 safe=
 def inc_counter():
