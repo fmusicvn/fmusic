@@ -37,7 +37,6 @@ def useragent_list():
 def referer_list():
 	global headers_referers
 	headers_referers = []
-	 headers_referers.append('http://www.google.com.vn/?q=')
  	headers_referers.append('http://www.google.com/?q=')
  	headers_referers.append('https://developers.google.com/speed/pagespeed/insights/?url=')
  	headers_referers.append('https://m.facebook.com/l.php?u=')
