@@ -1,0 +1,18 @@
+LIVE ~ 72.11.148.222:56533 | 0.196 | Los Angeles | CA | 90014 | United States | 
+LIVE ~ 66.110.216.105:39431 | 0.313 | Atlanta | GA | 30328 | United States | 
+LIVE ~ 220.79.34.109:2018 | 0.108 | Seoul | 11 | Unknown | Korea, Republic of | 
+LIVE ~ 98.143.145.30:62353 | 0.216 | Los Angeles | CA | 90014 | United States | 
+LIVE ~ 95.110.188.64:56114 | 0.33 | Unknown | Unknown | Unknown | Italy | 
+LIVE ~ 128.199.206.162:23456 | 0.091 | Unknown | Unknown | Unknown | United Kingdom | 
+LIVE ~ 178.76.71.141:62913 | 0.279 | Unknown | Unknown | Unknown | Moldova, Republic of | 
+LIVE ~ 83.169.247.219:9999 | 0.392 | Unknown | Unknown | Unknown | Russian Federation | 
+LIVE ~ 72.49.49.11:31034 | 0.34 | Cincinnati | OH | 45213 | United States | 
+LIVE ~ 98.143.145.29:62354 | 0.216 | Los Angeles | CA | 90014 | United States | 
+LIVE ~ 216.144.230.233:15993 | 0.21 | Van Nuys | CA | 91411 | United States | 
+LIVE ~ 208.97.31.229:53124 | 0.298 | Atlanta | GA | 30328 | United States |
+LIVE ~ 72.217.158.195:54810 | 0.324 | Unknown | Unknown | Unknown | United States | 
+LIVE ~ 216.144.228.130:15378 | 0.206 | Van Nuys | CA | 91411 | United States |
+LIVE ~ 69.61.200.104:36181 | 0.332 | Cincinnati | OH | 45205 | United States | 
+LIVE ~ 98.162.25.29:31679 | 0.321 | Unknown | Unknown | Unknown | United States | 
+LIVE ~ 96.44.133.110:58690 | 0.183 | Agoura Hills | CA | Unknown | United States | 
+LIVE ~ 169.239.221.90:50802 | 0.778 | Unknown | Unknown | Unknown | Unknown |
