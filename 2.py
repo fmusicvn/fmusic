@@ -118,7 +118,7 @@ def buildblock(size):
  return(out_str)
 def httpcall(url):
  referer_list()
- code=
+ code=500
  if url.count("?")>:
   param_joiner = "&"
  else:
