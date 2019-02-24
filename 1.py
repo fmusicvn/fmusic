@@ -87,7 +87,7 @@ def parse_parameters(parameters):
 	global url
 	global interval
 	global num_thread
-	interval_def = 3000
+	interval_def = 30000
 	num_thread_def = 1
 	interval = interval_def
 	num_thread = num_thread_def	
