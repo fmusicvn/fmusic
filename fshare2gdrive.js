@@ -151,7 +151,7 @@ async function genCmd(fshare_folder, remote_drive, remote_path, page=1, is_root_
 		const body = await request(options, false)
 		const promises = body.items.map(async item => {
 			if (item.type === 1) {
-				let cmd = `curl -s https://raw.githubusercontent.com/fmusicvn/fmusic/blob/master/fshare2gdrive.js | tail -n+2 | node - "https://fshare.vn/file/${item.linkcode}" "${remote_drive}" "${remote_path.replace(/\/$/,'')}/${(is_root_folder ? body.current.name + '/' : '')}" | bash -s`
+				let cmd = `curl -s https://raw.githubusercontent.com/fmusicvn/fmusic/master/fshare2gdrive.js | tail -n+2 | node - "https://fshare.vn/file/${item.linkcode}" "${remote_drive}" "${remote_path.replace(/\/$/,'')}/${(is_root_folder ? body.current.name + '/' : '')}" | bash -s`
 				console.log(cmd)
 			}	else {
 				item_folder = `https://fshare.vn/folder/${item.linkcode}`
@@ -169,32 +169,4 @@ async function genCmd(fshare_folder, remote_drive, remote_path, page=1, is_root_
 	}
 }
 
-(async () => {
-	try {
-		if (args === undefined) {
-			throw new Error('Invalid arguments!\nPlease input valid arguments. See https://github.com/duythongle/fshare2gdrive#usage for more details')
-		}
-	} catch (e) {
-		console.error(RED, e)
-		process.exit(1)
-	}
-	if (args[0].search(/fshare[.]vn\/folder\//) !== -1){
-		await checkLogin(false)
-		await genCmd(args[0], args[1], args[2])
-		process.exit(0)
-	} else if (args[0].search(/fshare[.]vn\/file\//) !== -1){
-		if (args[1] === undefined || args[2] === undefined) {
-			await checkLogin(false)
-			await transfer(args[0])
-			process.exit(0)
-		} else {
-			await checkLogin()
-			await transfer(args[0], args[1], args[2])
-			process.exit(0)
-		}
-	} else if (args[0] === "login"){
-		try { await deleteFileAsync(creds_path)	} catch(e) {}
-		await checkLogin()
-		process.exit(0)
-	}
 })();
